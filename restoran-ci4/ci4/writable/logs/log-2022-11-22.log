@@ -1,0 +1,62 @@
+CRITICAL - 2022-11-22 05:37:47 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\Admin\Kategori.php(59): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('30')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:38:03 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\Admin\Kategori.php(59): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('41')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:38:35 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\kategori\select.php on line 18.
+ 1 APPPATH\Views\kategori\select.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\kategori\\select.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/select', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(59): view('kategori/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:39:12 --> Invalid file: kategori/find.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/find.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/find', [], true)
+ 3 APPPATH\Controllers\Admin\Kategori.php(59): view('kategori/find', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('30')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:49:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\update.php on line 8.
+ 1 APPPATH\Views\kategori\update.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kategori\\update.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(61): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:49:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\update.php on line 8.
+ 1 APPPATH\Views\kategori\update.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kategori\\update.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(61): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

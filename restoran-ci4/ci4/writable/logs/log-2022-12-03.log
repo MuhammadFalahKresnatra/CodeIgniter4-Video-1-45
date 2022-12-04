@@ -1,0 +1,51 @@
+CRITICAL - 2022-12-03 03:59:07 --> Undefined array key "idorder"
+in APPPATH\Controllers\Admin\Order.php on line 18.
+ 1 APPPATH\Controllers\Admin\Order.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idorder"', 'APPPATH\\Controllers\\Admin\\Order.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:32:24 --> Undefined variable $no
+in APPPATH\Views\order\select.php on line 22.
+ 1 APPPATH\Views\order\select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'APPPATH\\Views\\order\\select.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('order/select', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(22): view('order/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:15:21 --> Undefined array key "pelanggan"
+in APPPATH\Views\order\update.php on line 12.
+ 1 APPPATH\Views\order\update.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pelanggan"', 'APPPATH\\Views\\order\\update.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('order/update', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(70): view('order/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->find('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 19:43:50 --> Undefined array key "orderdetail"
+in APPPATH\Views\orderdetail\select.php on line 46.
+ 1 APPPATH\Views\orderdetail\select.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orderdetail"', 'APPPATH\\Views\\orderdetail\\select.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\orderdetail\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('orderdetail/select', [], true)
+ 5 APPPATH\Controllers\Admin\OrderDetail.php(22): view('orderdetail/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\OrderDetail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OrderDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 20:49:59 --> Undefined variable $user
+in APPPATH\Views\user\select.php on line 43.
+ 1 APPPATH\Views\user\select.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\user\\select.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/select', [], true)
+ 5 APPPATH\Controllers\Admin\User.php(23): view('user/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
